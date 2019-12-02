@@ -10,10 +10,10 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/dbsystel/alertmanager-config-controller/alertmanager"
 	"github.com/go-kit/kit/log"
 	"github.com/go-kit/kit/log/level"
 	alcf "github.com/prometheus/alertmanager/config"
+	"gitlab.mallgroup.com/cc/alertmanager-config-controller/alertmanager"
 	"gopkg.in/yaml.v2"
 	v1 "k8s.io/api/core/v1"
 )

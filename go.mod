@@ -1,4 +1,4 @@
-module github.com/dbsystel/alertmanager-config-controller
+module gitlab.mallgroup.com/cc/alertmanager-config-controller
 
 go 1.12
 
