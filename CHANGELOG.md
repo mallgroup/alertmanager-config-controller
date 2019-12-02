@@ -1,3 +1,6 @@
+# 0.2.5 / 2019-12-02
+ * [BUGFIX] Fixed inhibition rules not being applied
+
 # 0.2.4 / 2019-06-28
  * [BUGFIX] Fixed incorrect indentation in configmap examples 
 
