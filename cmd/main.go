@@ -9,14 +9,14 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/dbsystel/alertmanager-config-controller/alertmanager"
-	"github.com/dbsystel/alertmanager-config-controller/controller"
 	"github.com/dbsystel/kube-controller-dbsystel-go-common/controller/configmap"
 	"github.com/dbsystel/kube-controller-dbsystel-go-common/kubernetes"
 	k8sflag "github.com/dbsystel/kube-controller-dbsystel-go-common/kubernetes/flag"
 	opslog "github.com/dbsystel/kube-controller-dbsystel-go-common/log"
 	logflag "github.com/dbsystel/kube-controller-dbsystel-go-common/log/flag"
 	"github.com/go-kit/kit/log/level"
+	"gitlab.mallgroup.com/cc/alertmanager-config-controller/alertmanager"
+	"gitlab.mallgroup.com/cc/alertmanager-config-controller/controller"
 	"gopkg.in/alecthomas/kingpin.v2"
 )
 
