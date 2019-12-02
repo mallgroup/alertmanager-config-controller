@@ -21,7 +21,7 @@ import (
 var (
 	receiverConst    = "receiver"
 	routeConst       = "route"
-	inhibitRuleConst = "inhibit rule"
+	inhibitRuleConst = "inhibit-rule"
 	configConst      = "config"
 )
 
