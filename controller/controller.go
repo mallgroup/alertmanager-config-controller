@@ -582,6 +582,9 @@ func (c *Controller) readConfigs(style string) string {
 			//nolint:errcheck
 			level.Error(c.logger).Log("msg", "Failed to read "+style+" file "+configFile, "err", err.Error())
 		}
+		if strings.TrimSpace(string(config)) == "[]" {
+			continue
+		}
 		configs = configs + string(config) + "\n"
 	}
 
