@@ -1,3 +1,6 @@
+# 0.2.6 / 2020-02-20
+ * [BUGFIX] Fixed empty lists not being properly merged, discarding other configs
+
 # 0.2.5 / 2019-12-02
  * [BUGFIX] Fixed inhibition rules not being applied
 
